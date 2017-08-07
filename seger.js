@@ -82126,13 +82126,13 @@ var onSwitch = function(view){
                         lat: Math.random() * 180 - 90,
                         lon: Math.random() * 360 - 180
                     },
-                    location: 'Test ' + Math.floor(Math.random() * 100),
+                    location: 'Raymond Mark [ ' + Math.floor(Math.random() * 100) + ' ] ',
                     type: 'Type ' + Math.floor(Math.random() * 8),
                     picSmall: 'images/not_available_small.png',
                     picLarge: 'images/not_available_large.png',
                     username: "raymond" + Math.floor(Math.random()*1000),
                     userurl: "https://github.com/raymondSeger",
-                    title: "Test " + Math.floor(Math.random() * 100),
+                    title: "Raymond " + Math.floor(Math.random() * 100) + " Located!",
                     url: "https://github.com/raymondSeger/raymond-boardroom/",
                     size: Math.floor(Math.random()*10000),
                     popularity: Math.floor(Math.random()*10000)
