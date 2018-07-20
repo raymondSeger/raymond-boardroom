@@ -80711,7 +80711,7 @@ function hideWebgl(){
 }
 
 function writeResponse(txt){
-    $("#lt-command-lines").append("<div class='response'>&gt;&gt;encom-sh: " + txt + "</div>");
+    $("#lt-command-lines").append("<div class='response'>&gt;&gt;CONSOLE: " + txt + "</div>");
 }
 
 var currentDir = "encom_root";
@@ -80719,7 +80719,7 @@ var currentDir = "encom_root";
 function writePrompt(){
     $(".command-blinker").removeClass("blink").removeClass("command-blinker");
 
-    $("#lt-command-lines").append('<div class="command"><span class="prompt">encom-sh:' + currentDir + '$&nbsp;</span><span class="command-text"></span><span class="blink command-blinker">&nbsp;</span></div>');
+    $("#lt-command-lines").append('<div class="command"><span class="prompt">CONSOLE:' + currentDir + '$&nbsp;</span><span class="command-text"></span><span class="blink command-blinker">&nbsp;</span></div>');
 }
 
 function writeLs(exec){
